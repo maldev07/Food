@@ -3,7 +3,7 @@ import {
    openModal
 } from './modal';
 import {
-   formData
+   postData
 } from '../services/services';
 
 function forms(formSelector, modalTimerId) {
@@ -17,6 +17,7 @@ function forms(formSelector, modalTimerId) {
    form.forEach(item => {
       bindPostDate(item);
    });
+
 
    function bindPostDate(form) {
 
